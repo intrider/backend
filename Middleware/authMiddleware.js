@@ -12,5 +12,4 @@ const jwt=require('jsonwebtoken');
         res.status(400).send('Invalid token');
     }
  }
-
  module.exports=verifyToken;
